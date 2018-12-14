@@ -1,0 +1,21 @@
+{
+    "name": "inquid/yii-envia",
+    "description": "Yii Client for envia.com api",
+    "type": "yii2-extension",
+    "keywords": ["yii2","yii3","extension","shipping","mexico","envia.com"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Inquid",
+            "email": "contact@inquid.co"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "inquid\\envia\\": "src"
+        }
+    }
+}
