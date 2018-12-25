@@ -3,11 +3,12 @@
 namespace inquid\envia;
 
 use inquid\envia\models\Track;
+use inquid\envia\HttpClientV3;
 
 /**
  * This is just an example.
  */
-class EnvhiaHandler extends HttpClientV3
+class EnviaHandler extends HttpClientV3
 {
     /**
      * @return array|Track[]|Error

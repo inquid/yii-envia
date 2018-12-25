@@ -18,8 +18,8 @@ class HttpClientV3 extends Component
     private $token;
     public $username;
     public $password;
-    const URL_ENVIA = 'https://api.envia.com/';
-    const URL_ENVIA_SANDBOX = 'https://api-test.envia.com/';
+    const URL_ENVIA = 'https://api.envia.com';
+    const URL_ENVIA_SANDBOX = 'https://api-test.envia.com';
 
     private $_options = [
         CURLOPT_RETURNTRANSFER => true,
